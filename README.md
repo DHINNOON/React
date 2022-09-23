@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DHINNOON
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning JS
+- 🌱 I’m currently learning React
 - 📫 How to reach me dhinnoon07@gmail.com
 
 <!---
