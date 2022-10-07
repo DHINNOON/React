@@ -6,6 +6,7 @@ class Message extends Component {
     this.state = {
       message: "Welcome Visitor",
     };
+    console.log("Hello");
   }
   changeMessage() {
     this.setState({
