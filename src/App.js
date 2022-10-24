@@ -23,12 +23,17 @@ import Table from "./components/Table";
 import React, { Component } from "react";
 import PureComp from "./components/PureComp";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
+import FRParentInput from "./components/FRParentInput";
 
 export class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComp />
+        <FRParentInput />
+        {/* <FocusInput />
+        <RefsDemo /> */}
       </div>
     );
   }
@@ -39,7 +44,9 @@ export default App;
 // function App() {
 //   return (
 //     <div className="App">
-//       {/*<Table />
+//       {/*
+//        <ParentComp />
+//        <Table />
 //       <FragmentDemo />
 //        <LifeCycleA />
 //        <Form />
