@@ -27,17 +27,12 @@ import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
 import FRParentInput from "./components/FRParentInput";
 import PortalDemo from "./components/PortalDemo";
+import Hero from "./components/Hero";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 export class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <PortalDemo />
-        {/* <FRParentInput />
-        <FocusInput />
-        <RefsDemo /> */}
-      </div>
-    );
+    return <div className="App"></div>;
   }
 }
 
@@ -46,7 +41,19 @@ export default App;
 // function App() {
 //   return (
 //     <div className="App">
-//       {/*
+{
+  /* <ErrorBoundary>
+<Hero heroName="Batman" />
+</ErrorBoundary>
+
+<ErrorBoundary>
+<Hero heroName="joker" />
+</ErrorBoundary> */
+}
+//        <PortalDemo />
+//        <FRParentInput />
+//        <FocusInput />
+//        <RefsDemo />
 //        <ParentComp />
 //        <Table />
 //       <FragmentDemo />
