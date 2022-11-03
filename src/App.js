@@ -29,10 +29,17 @@ import FRParentInput from "./components/FRParentInput";
 import PortalDemo from "./components/PortalDemo";
 import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 export class App extends Component {
   render() {
-    return <div className="App"></div>;
+    return (
+      <div className="App">
+        <ClickCounter />
+        <HoverCounter />
+      </div>
+    );
   }
 }
 
